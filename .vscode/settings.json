@@ -1,0 +1,166 @@
+{
+  "editor.defaultFormatter": null,
+  "editor.stickyTabStops": true,
+  "editor.tabCompletion": "on",
+  "editor.wordWrap": "on",
+  "editor.fontSize": 12,
+  "editor.fontFamily": "'Noto Sans Mono', 'Source Code Pro', 'Droid Sans Mono'",
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "python.analysis.extraPaths": [
+    "${workspaceFolder}/.venv/bin",
+    "${workspaceFolder}/.venv/lib/python3.11/site-packages",
+    "~/.local/lib/python3.11/site-packages"
+  ],
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+  "python.languageServer": "Jedi",
+  "python.analysis.typeCheckingMode": "strict",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": false,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
+  },
+  "isort.args": ["--profile", "black"],
+  "clang-format.executable": "/usr/bin/clang-format",
+  "cmake.sourceDirectory": "/home/austin/Local/console.cpp/console",
+  // C/C++ specific settings
+  "C_Cpp.default.includePath": [
+    "${workspaceFolder}/ggml/include",
+    "${workspaceFolder}/include"
+  ],
+  "C_Cpp.default.defines": [],
+  "C_Cpp.default.compilerPath": "/usr/bin/clang++",
+  "C_Cpp.default.cStandard": "c17",
+  "C_Cpp.default.cppStandard": "c++17",
+  "C_Cpp.default.intelliSenseMode": "linux-clang-x64",
+  // Enable clang-format on save for C/C++ code
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+  "[makefile]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools",
+    "editor.tabSize": 4,
+    "editor.formatOnSave": true,
+    "editor.insertSpaces": false,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "editor.trimAutoWhitespace": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit"
+    }
+  },
+  "[c]": {
+    "editor.defaultFormatter": "xaver.clang-format",
+    "editor.tabSize": 4,
+    "editor.formatOnSave": true,
+    "editor.insertSpaces": true
+  },
+  "[cpp]": {
+    "editor.defaultFormatter": "xaver.clang-format",
+    "editor.tabSize": 4,
+    "editor.formatOnSave": true,
+    "editor.insertSpaces": true
+  },
+  "files.associations": {
+    "climits": "cpp",
+    "format": "cpp",
+    "iostream": "cpp",
+    "any": "cpp",
+    "array": "cpp",
+    "atomic": "cpp",
+    "bit": "cpp",
+    "*.tcc": "cpp",
+    "bitset": "cpp",
+    "cctype": "cpp",
+    "charconv": "cpp",
+    "chrono": "cpp",
+    "cinttypes": "cpp",
+    "clocale": "cpp",
+    "cmath": "cpp",
+    "codecvt": "cpp",
+    "compare": "cpp",
+    "complex": "cpp",
+    "concepts": "cpp",
+    "condition_variable": "cpp",
+    "csignal": "cpp",
+    "cstdarg": "cpp",
+    "cstddef": "cpp",
+    "cstdint": "cpp",
+    "cstdio": "cpp",
+    "cstdlib": "cpp",
+    "cstring": "cpp",
+    "ctime": "cpp",
+    "cwchar": "cpp",
+    "cwctype": "cpp",
+    "deque": "cpp",
+    "forward_list": "cpp",
+    "list": "cpp",
+    "map": "cpp",
+    "set": "cpp",
+    "string": "cpp",
+    "unordered_map": "cpp",
+    "unordered_set": "cpp",
+    "vector": "cpp",
+    "exception": "cpp",
+    "expected": "cpp",
+    "algorithm": "cpp",
+    "functional": "cpp",
+    "iterator": "cpp",
+    "memory": "cpp",
+    "memory_resource": "cpp",
+    "numeric": "cpp",
+    "optional": "cpp",
+    "random": "cpp",
+    "ratio": "cpp",
+    "regex": "cpp",
+    "string_view": "cpp",
+    "system_error": "cpp",
+    "tuple": "cpp",
+    "type_traits": "cpp",
+    "utility": "cpp",
+    "fstream": "cpp",
+    "future": "cpp",
+    "initializer_list": "cpp",
+    "iomanip": "cpp",
+    "iosfwd": "cpp",
+    "istream": "cpp",
+    "limits": "cpp",
+    "mutex": "cpp",
+    "new": "cpp",
+    "numbers": "cpp",
+    "ostream": "cpp",
+    "ranges": "cpp",
+    "semaphore": "cpp",
+    "shared_mutex": "cpp",
+    "span": "cpp",
+    "sstream": "cpp",
+    "stdexcept": "cpp",
+    "stdfloat": "cpp",
+    "stop_token": "cpp",
+    "streambuf": "cpp",
+    "thread": "cpp",
+    "cfenv": "cpp",
+    "typeindex": "cpp",
+    "typeinfo": "cpp",
+    "valarray": "cpp",
+    "variant": "cpp"
+  }
+}
